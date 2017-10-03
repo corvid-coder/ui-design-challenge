@@ -1,0 +1,35 @@
+:host {
+  display: inline-block;
+  --rounded: 0.2rem;
+}
+
+.cc-signup {
+  background-color: hsla(200, 90%, 35%, 1.0);
+  padding: 1rem;
+  border-radius: var(--rounded);
+  box-shadow: 0 0 0.5rem hsla(0, 0%, 0%, 0.4);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin-bottom: 0.75rem;
+}
+form > *:last-child {
+  margin-bottom: 0;
+}
+
+input {
+  padding: 0 1em;
+}
+
+input ,
+button {
+  font-size: 0.5rem;
+  height: 1rem;
+  width: 100%;
+  border-radius: var(--rounded);
+}
