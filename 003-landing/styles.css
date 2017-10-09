@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+:root {
+  --dark: #688b9c;
+  --light: #f0f5f9;
+  --accent: #5e7086;
+  --warning: #b67b3f;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 6vw;
+}
+
+cc-header {
+  height: 20vw;
+  display: block;
+}
